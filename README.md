@@ -31,4 +31,5 @@ I.R.I.S/
 ├── engine_server.py     # Background socket orchestrator & silent process daemon
 ├── engine_llm.py        # LLM communication interface & strict JSON schema parser
 ├── engine_actions.py    # Task router (Browser automation, media playback, system ops)
-└── processedCommand.py  # Central logic broker between input intent and execution
+├── processedCommand.py  # Central logic broker between input intent and execution
+└── requirements.txt     # Project dependencies
